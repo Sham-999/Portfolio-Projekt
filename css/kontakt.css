@@ -1,0 +1,47 @@
+#contacts {
+    padding-top: 10px;
+    width: 100%;
+    height: 100vh;
+}
+
+.contacts_form {
+    padding-top: 10px;
+    position: relative;
+    max-width: 500px;
+    margin: 45px auto;
+    text-align: center;
+}
+
+.contacts_form form input {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 30px;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: aqua;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.contacts_form form textarea {
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px 0 10px 30px;
+    background-color: aqua;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.contacts_form form button {
+    display: inline-block;
+    background-color: #C34F65;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}

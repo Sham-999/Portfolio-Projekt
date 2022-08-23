@@ -1,0 +1,109 @@
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.header_body {
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+}
+
+.header_head {
+    position: relative;
+    background-color: #b83149;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.head-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.head-inner .logo {
+    font-size: 24px;
+    color: #ccc;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.head-inner .logo a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.head-inner nav ul li {
+    position: sticky;
+}
+
+.head-inner nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.head-inner nav ul li {
+    list-style: none;  
+}
+
+.head-inner nav ul li a {
+    font-size: 16px;
+    color: #ccc;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.header_body_inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.header_body_inner .left .title {
+    color: darkblue;
+    font-size: 46px;
+    transition: all .5s ease;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.header_body_inner .left .title span {
+    color: greenyellow;
+}
+
+button {
+    display: inline-block;
+    background-color: #C34F65;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Rubik Dirt', cursive;
+}
+.foto img{
+    width: 750px;
+}

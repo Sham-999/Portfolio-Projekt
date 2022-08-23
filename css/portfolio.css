@@ -1,0 +1,31 @@
+#portfolio{
+    height: 100vh;
+}
+.section_title {
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+.section_title > p{
+    color: #66EAED;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio_items {
+    margin-top: 5px;
+    display: flex;
+}
+
+.item img {
+    width: 60%;
+    height: auto;
+    border-radius: 5%;
+}
+
+
+.container{
+    justify-content: center;
+}

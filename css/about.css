@@ -1,0 +1,40 @@
+#about{
+    height: 100vh;
+}
+
+#about .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.about_text {
+    margin-top: 45px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.about_text p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
